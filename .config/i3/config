@@ -52,7 +52,7 @@ new_float pixel 1
 #hide_edge_borders both
 
 # start a terminal
-bindsym $mod+Return exec i3-sensible-terminal
+bindsym $mod+Return exec xterm
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -223,13 +223,13 @@ bar {
         separator_symbol ""
 
     colors{
-        background #000000
+        background #121212
         # class                  border  backgrd   text
         #focused_workspace     #ffae00  #ffae00  #000000
         #inactive_workspace    #222222 #222222  #cad4ca
         
-        focused_workspace     #ffffff  #ffffff  #000000
-        inactive_workspace    #000000 #000000  #444444
+        focused_workspace     #ffffff  #ffffff  #121212
+        inactive_workspace    #121212 #121212  #444444
     }
 }
 
