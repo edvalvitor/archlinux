@@ -217,7 +217,9 @@ bar {
         #status_command i3blocks
         status_command i3status
         #position top
-        font pango:monospace 8, FontAwesome 8
+        #font pango:monospace 8, FontAwesome 8
+        font FontAwesome 8
+        font pango:Terminus 8
         separator_symbol ""
 
     colors{
@@ -226,7 +228,7 @@ bar {
         #focused_workspace     #ffae00  #ffae00  #000000
         #inactive_workspace    #222222 #222222  #cad4ca
         
-        focused_workspace     #ffffff  #000000  #ffffff
+        focused_workspace     #ffffff  #ffffff  #000000
         inactive_workspace    #000000 #000000  #444444
     }
 }
@@ -247,7 +249,7 @@ bindsym XF86MonBrightnessDown exec --no-startup-id brightnessctl set 5%-
 exec --no-startup-id ~/.dropbox-dist/dropboxd
 exec --no-startup-id nitrogen --restore
 exec --no-startup-id volumeicon
-exec --no-startup-id compton
+#exec --no-startup-id compton
 #exec --no-startup-id polybar -c /home/vitor/polybar/config
 
 #Aplições aberta em modo Floating ou sem bordas
