@@ -209,7 +209,7 @@ mode "resize" {
 
 #Theme Colors
 #class                  border   backgr.  text  indicator
-client.focused          #ffffff #ffae00 #000000
+client.focused          #ffffff #ffffff #000000
 
 
 bindsym $mod+r mode "resize"
