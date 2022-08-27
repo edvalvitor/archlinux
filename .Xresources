@@ -1,5 +1,5 @@
 
-xterm*faceName: Terminus
+xterm*faceName: Terminus:style:Bold
 xterm*faceSize: 10
 xterm*saveLines: 1000
 

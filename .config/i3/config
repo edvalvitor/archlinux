@@ -25,7 +25,7 @@ font pango:Terminus 8
 
 # xss-lock grabs a logind suspend inhibit lock and will use i3lock to lock the
 # screen before suspend. Use loginctl lock-session to lock your screen.
-exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
+exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork -i ~/.config/i3/lock_screen.png
 
 #i3lock
 bindsym $mod+t exec i3lock -i ~/.config/i3/lock_screen.png
@@ -249,7 +249,7 @@ bindsym XF86MonBrightnessDown exec --no-startup-id brightnessctl set 5%-
 
 # Aplicações Iniciadas junto com o sistema
 #exec --no-startup-id dropbox start
-exec --no-startup-id ~/.dropbox-dist/dropboxd
+#exec --no-startup-id ~/.dropbox-dist/dropboxd
 exec --no-startup-id nitrogen --restore
 exec --no-startup-id volumeicon
 #exec --no-startup-id compton
@@ -264,8 +264,8 @@ bindsym Print exec --no-startup-id xfce4-screenshooter
 
 
 # Only enable gaps on a workspace when there is at least one container
-smart_gaps on
+#smart_gaps on
 
-gaps inner 0
-gaps outer 0
+#gaps inner 0
+###gaps outer 0
 
