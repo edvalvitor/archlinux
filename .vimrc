@@ -10,13 +10,13 @@ set tabstop=4
 
 "Tabes
 "Open a new Tabe
-noremap <A-UP> :tabnew<CR>
+noremap <C-UP> :tabnew<CR>
 "Close Tabe
-noremap <A-DOWN> :tabclose<CR>
+noremap <C-DOWN> :tabclose<CR>
 "Next Tabe
-noremap <A-RIGHT> :tabnext<CR>
+noremap <C-RIGHT> :tabnext<CR>
 "Previous Tabe
-noremap <A-Left> :tabprevious<CR>
+noremap <C-Left> :tabprevious<CR>
 
 "Move
 noremap j <Left>
