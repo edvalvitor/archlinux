@@ -261,6 +261,7 @@ exec --no-startup-id copyq
 for_window [class="Nitrogen"] floating enable sticky enable border normal
 for_window [class="Thunderbird"] floating enable sticky disable border 1
 for_window [class="Kazam"] floating enable sticky disable border normal
+for_window [class="copyq"] floating enable sticky disable border 1
 
 bindsym Print exec --no-startup-id flameshot gui
 
