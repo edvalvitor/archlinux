@@ -255,6 +255,7 @@ exec --no-startup-id volumeicon
 #exec --no-startup-id compton
 exec --no-startup-id polybar -c /home/vitor/polybar/config
 exec --no-startup-id flameshot
+exec --no-startup-id copyq
 
 #Aplições aberta em modo Floating ou sem bordas
 for_window [class="Nitrogen"] floating enable sticky enable border normal
@@ -265,8 +266,8 @@ bindsym Print exec --no-startup-id flameshot gui
 
 
 # Only enable gaps on a workspace when there is at least one container
-smart_gaps on
+#smart_gaps on
 
-gaps inner 0
-gaps outer 0
+#gaps inner 0
+#gaps outer 0
 
