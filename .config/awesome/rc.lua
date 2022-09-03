@@ -454,7 +454,8 @@ awful.rules.rules = {
                      keys = clientkeys,
                      buttons = clientbuttons,
                      screen = awful.screen.preferred,
-                     placement = awful.placement.no_overlap+awful.placement.no_offscreen
+                     placement = awful.placement.no_overlap+awful.placement.no_offscreen,
+                     size_hints_honor = false
      }
     },
 
@@ -569,3 +570,4 @@ awful.spawn.with_shell("nitrogen --restore")
 awful.spawn.with_shell("volumeicon")
 awful.spawn.with_shell("flameshot")
 awful.spawn.with_shell("copyq")
+awful.spawn.with_shell("nm-applet")
