@@ -45,7 +45,9 @@ end
 
 -- {{{ Variable definitions
 -- Themes define colours, icons, font and wallpapers.
-beautiful.init(gears.filesystem.get_themes_dir() .. "default/theme.lua")
+beautiful.init(gears.filesystem.get_themes_dir() .. "xresources/theme.lua")
+--Remove gaps from xresources/theme.lua
+beautiful.useless_gap = 0
 
 -- This is used later as the default terminal and editor to run.
 terminal = "xterm"
@@ -196,14 +198,14 @@ awful.screen.connect_for_each_screen(function(s)
     }
 
     -- Create the wibox
-    s.mywibox = awful.wibar({ position = "top", screen = s })
+    s.mywibox = awful.wibar({ position = "top", screen = si, height = 20 })
 
     -- Add widgets to the wibox
     s.mywibox:setup {
         layout = wibox.layout.align.horizontal,
         { -- Left widgets
             layout = wibox.layout.fixed.horizontal,
-            mylauncher,
+           -- mylauncher,
             s.mytaglist,
             s.mypromptbox,
         },
@@ -571,3 +573,5 @@ awful.spawn.with_shell("volumeicon")
 awful.spawn.with_shell("flameshot")
 awful.spawn.with_shell("copyq")
 awful.spawn.with_shell("nm-applet")
+
+
