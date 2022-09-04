@@ -45,9 +45,10 @@ end
 
 -- {{{ Variable definitions
 -- Themes define colours, icons, font and wallpapers.
-beautiful.init(gears.filesystem.get_themes_dir() .. "xresources/theme.lua")
+beautiful.init(gears.filesystem.get_themes_dir() .. "nord/theme.lua")
 --Remove gaps from xresources/theme.lua
-beautiful.useless_gap = 0
+beautiful.useless_gap = 2
+
 
 -- This is used later as the default terminal and editor to run.
 terminal = "xterm"
