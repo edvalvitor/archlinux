@@ -193,7 +193,7 @@ awful.screen.connect_for_each_screen(function(s)
     -- Create a tasklist widget
     s.mytasklist = awful.widget.tasklist {
         screen  = s,
-        filter  = awful.widget.tasklist.filter.focused,
+        filter  = awful.widget.tasklist.filter.currenttags,
         buttons = tasklist_buttons
     }
 
