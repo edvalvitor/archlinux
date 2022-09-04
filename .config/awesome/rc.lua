@@ -45,7 +45,7 @@ end
 
 -- {{{ Variable definitions
 -- Themes define colours, icons, font and wallpapers.
-beautiful.init(gears.filesystem.get_themes_dir() .. "nord/theme.lua")
+beautiful.init(gears.filesystem.get_themes_dir() .. "zenburn/theme.lua")
 --Remove gaps from xresources/theme.lua
 beautiful.useless_gap = 2
 
@@ -194,7 +194,7 @@ awful.screen.connect_for_each_screen(function(s)
     -- Create a tasklist widget
     s.mytasklist = awful.widget.tasklist {
         screen  = s,
-        filter  = awful.widget.tasklist.filter.none,
+        filter  = awful.widget.tasklist.filter.currenttags,
         buttons = tasklist_buttons
     }
 
