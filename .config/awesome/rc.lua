@@ -603,3 +603,9 @@ screen.connect_signal("arrange", function (s)
         end
     end
 end)
+
+-- Bordas arredondadas
+
+client.connect_signal("manage", function (c)
+    c.shape = gears.shape.rounded_rect
+end)
