@@ -3,39 +3,42 @@ xterm*faceName: Terminus:style:Bold
 xterm*faceSize: 10
 xterm*saveLines: 1000
 
-! Zenburn color-scheme
-*.background              :#1f1f1f
-*.foreground              :#dcdccc
+#define nord0 #2E3440
+#define nord1 #3B4252
+#define nord2 #434C5E
+#define nord3 #4C566A
+#define nord4 #D8DEE9
+#define nord5 #E5E9F0
+#define nord6 #ECEFF4
+#define nord7 #8FBCBB
+#define nord8 #88C0D0
+#define nord9 #81A1C1
+#define nord10 #5E81AC
+#define nord11 #BF616A
+#define nord12 #D08770
+#define nord13 #EBCB8B
+#define nord14 #A3BE8C
+#define nord15 #B48EAD
 
-! black + red
-!URxvt.color0                 :#3f3f3f
-*.color0                  :#1f1f1f
-*.color1                  :#705050
+*.foreground:   nord4
+*.background:   nord0
+*.cursorColor:  nord4
+*fading: 35
+*fadeColor: nord3
 
-! green + yellow
-*.color2                  :#60b48a
-*.color3                  :#dfaf8f
-
-! blue + purple
-*.color4                  :#506070
-*.color5                  :#dc8cc3
-
-! cyan + white
-*.color6                  :#8cd0d3
-*.color7                  :#dcdccc
-
-! bright-black + bright-red
-*.color8                  :#709080
-*.color9                  :#dca3a3
-
-! bright-green + bright-yellow
-*.color10                 :#c3bf9f
-*.color11                 :#f0dfaf
-
-! bright-blue + bright-purple
-*.color12                 :#94bff3
-*.color13                 :#ec93d3
-
-! bright-cyan + bright-white
-*.color14                 :#93e0e3
-*.color15                 :#ffffff
+*.color0: nord1
+*.color1: nord11
+*.color2: nord14
+*.color3: nord13
+*.color4: nord9
+*.color5: nord15
+*.color6: nord8
+*.color7: nord5
+*.color8: nord3
+*.color9: nord11
+*.color10: nord14
+*.color11: nord13
+*.color12: nord9
+*.color13: nord15
+*.color14: nord7
+*.color15: nord6
