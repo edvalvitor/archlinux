@@ -256,6 +256,10 @@ exec --no-startup-id volumeicon
 exec --no-startup-id polybar -c /home/vitor/polybar/config
 exec --no-startup-id flameshot
 exec --no-startup-id copyq
+exec --no-startup-id cbatticon
+exec --no-startup-id blueman-applet
+
+
 
 #Aplições aberta em modo Floating ou sem bordas
 for_window [class="Nitrogen"] floating enable sticky enable border normal

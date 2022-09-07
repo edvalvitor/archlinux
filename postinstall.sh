@@ -20,3 +20,4 @@ ristretto #imagens
 vlc #video
 blueman #bluetooth
 cbatticon #battery monitor
+dunst #notifications
