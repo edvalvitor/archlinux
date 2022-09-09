@@ -206,7 +206,7 @@ awful.screen.connect_for_each_screen(function(s)
         layout = wibox.layout.align.horizontal,
         { -- Left widgets
             layout = wibox.layout.fixed.horizontal,
-           -- mylauncher,
+            mylauncher,
             s.mytaglist,
             s.mypromptbox,
         },
@@ -587,7 +587,6 @@ awful.spawn.with_shell("flameshot")
 awful.spawn.with_shell("copyq")
 awful.spawn.with_shell("nm-applet")
 awful.spawn.with_shell("cbatticon")
-awful.spawn.with_shell("blueman")
 
 
 
