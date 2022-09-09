@@ -45,9 +45,9 @@ end
 
 -- {{{ Variable definitions
 -- Themes define colours, icons, font and wallpapers.
-beautiful.init(gears.filesystem.get_themes_dir() .. "dark/theme.lua")
+        beautiful.init(gears.filesystem.get_themes_dir() .. "blackmetal/theme.lua")
 --Remove gaps from xresources/theme.lua
-beautiful.useless_gap = 2
+beautiful.useless_gap = 0
 
 
 -- This is used later as the default terminal and editor to run.
@@ -607,6 +607,6 @@ end)
 
 -- Bordas arredondadas
 
-client.connect_signal("manage", function (c)
-    c.shape = gears.shape.rounded_rect
-end)
+--client.connect_signal("manage", function (c)
+--    c.shape = gears.shape.rounded_rect
+--end)
