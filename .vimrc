@@ -8,6 +8,7 @@ set t_Co=256
 set expandtab
 set tabstop=4
 
+
 "Tabes
 "Open a new Tabe
 noremap <C-UP> :tabnew<CR>
