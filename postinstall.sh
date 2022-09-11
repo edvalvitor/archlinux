@@ -21,3 +21,4 @@ vlc #video
 blueman #bluetooth
 cbatticon #battery monitor
 dunst #notifications
+rsync #copia de arquivos

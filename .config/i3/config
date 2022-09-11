@@ -216,25 +216,25 @@ bindsym $mod+r mode "resize"
 
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
-#bar {
-#        #status_command i3blocks
-#        status_command i3status
-#        #position top
-#        #font pango:monospace 8, FontAwesome 8
-#        font FontAwesome 8
-#        font pango:Terminus 8
-#        separator_symbol ""
-#
-#    colors{
-#        background #121212
-#        # class                  border  backgrd   text
-#        #focused_workspace     #ffae00  #ffae00  #000000
-#        #inactive_workspace    #222222 #222222  #cad4ca
-#        
-#        focused_workspace     #ffffff  #ffffff  #121212
-#        inactive_workspace    #121212 #121212  #444444
-#    }
-#}
+bar {
+        #status_command i3blocks
+        status_command i3status
+        position top
+        #font pango:monospace 8, FontAwesome 8
+        font FontAwesome 8
+        font pango:Terminus 8
+        separator_symbol ""
+
+    colors{
+        background #121212
+        # class                  border  backgrd   text
+        #focused_workspace     #ffae00  #ffae00  #000000
+        #inactive_workspace    #222222 #222222  #cad4ca
+        
+        focused_workspace     #414141  #414141  #ffffff
+        inactive_workspace    #121212 #121212  #444444
+    }
+}
 
 #Volume Control
 bindsym $mod+F11 exec amixer set Master 5%-
@@ -253,7 +253,7 @@ exec --no-startup-id ~/.dropbox-dist/dropboxd
 exec --no-startup-id nitrogen --restore
 exec --no-startup-id volumeicon
 #exec --no-startup-id compton
-exec --no-startup-id polybar -c /home/vitor/polybar/config
+#exec --no-startup-id polybar -c /home/vitor/polybar/config
 exec --no-startup-id flameshot
 exec --no-startup-id copyq
 exec --no-startup-id cbatticon
