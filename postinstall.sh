@@ -23,3 +23,6 @@ blueman #bluetooth
 cbatticon #battery monitor
 dunst #notifications
 rsync #copia de arquivos
+telegram-desktop # Telegram messeger
+qbittorrent #torrent client
+xterm #terminal emulator
