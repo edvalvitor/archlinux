@@ -26,3 +26,6 @@ rsync #copia de arquivos
 telegram-desktop # Telegram messeger
 qbittorrent #torrent client
 xterm #terminal emulator
+rofi #launcher
+xss-lock #screen lock
+vlc #video player
