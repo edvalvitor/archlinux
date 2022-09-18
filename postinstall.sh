@@ -28,3 +28,4 @@ xterm #terminal emulator
 rofi #launcher
 xss-lock #screen lock
 vlc #video player
+xorg-xinput #touchpad configuration
