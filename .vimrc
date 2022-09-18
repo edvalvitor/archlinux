@@ -3,10 +3,13 @@ syntax on
 
 set laststatus=2
 set t_Co=256
+set background=dark
 
 "Tab 4 spaces
 set expandtab
 set tabstop=4
+set termguicolors
+colorscheme gruvbox
 
 
 "Tabes

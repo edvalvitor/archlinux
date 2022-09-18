@@ -1,0 +1,7 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =5
+let g:netrw_dirhist_5='/home/vitor/.config/awesome'
+let g:netrw_dirhist_4='/usr/share/awesome/themes/dark'
+let g:netrw_dirhist_3='/usr/share/awesome/themes'
+let g:netrw_dirhist_2='/usr/share/awesome/themes/xresources'
+let g:netrw_dirhist_1='/home/vitor/.config/awesome'
