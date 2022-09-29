@@ -1,26 +1,38 @@
 set number
 syntax on
-
 set laststatus=2
 set t_Co=256
 set background=dark
+set cursorline
+set cursorcolumn
 
 "Tab 4 spaces
 set expandtab
 set tabstop=4
 set termguicolors
-colorscheme gruvbox
+colorscheme molokai
 
+" Do not wrap lines. Allow long lines to extend as far as the line goes.
+set nowrap
+" While searching though a file incrementally highlight matching characters as you type.
+set incsearch
+" Ignore capital letters during search.
+set ignorecase
+" Show matching words during a search.
+set showmatch
+
+" Use highlighting when doing a search.
+set hlsearch
 
 "Tabes
 "Open a new Tabe
-noremap <C-UP> :tabnew<CR>
+noremap <A-UP> :tabnew<CR>
 "Close Tabe
-noremap <C-DOWN> :tabclose<CR>
+noremap <A-DOWN> :tabclose<CR>
 "Next Tabe
-noremap <C-RIGHT> :tabnext<CR>
+noremap <A-RIGHT> :tabnext<CR>
 "Previous Tabe
-noremap <C-Left> :tabprevious<CR>
+noremap <A-Left> :tabprevious<CR>
 
 "Move
 noremap j <Left>
