@@ -1,9 +1,7 @@
-
-xterm*faceName: Terminus:style:Bold
-xterm*faceSize: 10
+xterm*faceName: Terminus:style:bold
+xterm*faceSize: 11
 xterm*saveLines: 1000
 XTerm*selectToClipboard: true
-
 
 !       ██                  ██                                   ██      ██                 
 !      ░██                 ░██                                  ░██     ░░                  
