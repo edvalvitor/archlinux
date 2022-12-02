@@ -3,48 +3,32 @@ xterm*faceSize: 11
 xterm*saveLines: 1000
 XTerm*selectToClipboard: true
 
-!       ██                  ██                                   ██      ██                 
-!      ░██                 ░██                                  ░██     ░░                  
-!      ░██  ██████   ██████░██  ██ ██████████   ██████    █████ ░██      ██ ███████   █████ 
-!   ██████ ░░░░░░██ ░░██░░█░██ ██ ░░██░░██░░██ ░░░░░░██  ██░░░██░██████ ░██░░██░░░██ ██░░░██
-!  ██░░░██  ███████  ░██ ░ ░████   ░██ ░██ ░██  ███████ ░██  ░░ ░██░░░██░██ ░██  ░██░███████
-! ░██  ░██ ██░░░░██  ░██   ░██░██  ░██ ░██ ░██ ██░░░░██ ░██   ██░██  ░██░██ ░██  ░██░██░░░░ 
-! ░░██████░░████████░███   ░██░░██ ███ ░██ ░██░░████████░░█████ ░██  ░██░██ ███  ░██░░██████
-!  ░░░░░░  ░░░░░░░░ ░░░    ░░  ░░ ░░░  ░░  ░░  ░░░░░░░░  ░░░░░  ░░   ░░ ░░ ░░░   ░░  ░░░░░░ 
-!
-! special
-*.foreground:   #c0c0c0
-*.background:   #121212
-*.cursorColor:  #c0c0c0
 
-! black
-*.color0:       #080808
-*.color8:       #36393f
-
-! red
-*.color1:       #515978
-*.color9:       #778099
-
-! green
-*.color2:       #3ea28d
-*.color10:      #71c4ba
-
-! yellow
-*.color3:       #4dc5ce
-*.color11:      #5e767f
-
-! blue
-*.color4:       #6ea2a5
-*.color12:      #6abdc1
-
-! magenta
-*.color5:       #a8a8a8
-*.color13:      #4e4d80
-
-! cyan
-*.color6:       #558188
-*.color14:      #4fc8ce
-
-! white
-*.color7:       #c0c0c0
-*.color15:      #a6a8aa
+! hard contrast: *background: #1d2021
+*background: #282828
+! soft contrast: *background: #32302f
+*foreground: #ebdbb2
+! Black + DarkGrey
+*color0:  #282828
+*color8:  #928374
+! DarkRed + Red
+*color1:  #cc241d
+*color9:  #fb4934
+! DarkGreen + Green
+*color2:  #98971a
+*color10: #b8bb26
+! DarkYellow + Yellow
+*color3:  #d79921
+*color11: #fabd2f
+! DarkBlue + Blue
+*color4:  #458588
+*color12: #83a598
+! DarkMagenta + Magenta
+*color5:  #b16286
+*color13: #d3869b
+! DarkCyan + Cyan
+*color6:  #689d6a
+*color14: #8ec07c
+! LightGrey + White
+*color7:  #a89984
+*color15: #ebdbb2

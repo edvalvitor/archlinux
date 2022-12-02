@@ -226,17 +226,23 @@ bar {
         font FontAwesome 8
         font pango:Terminus 8
         separator_symbol ""
-
-    colors{
-        background #121212
-        # class                  border  backgrd   text
-        #focused_workspace     #ffae00  #ffae00  #000000
-        #inactive_workspace    #222222 #222222  #cad4ca
-        
-        focused_workspace     #414141  #414141  #ffffff
-        inactive_workspace    #121212 #121212  #444444
-    }
+        colors {
+      background $bg
+      statusline $lightgray
+      separator  #586e75
+      focused_workspace    $lightgray $lightgray $bg
+        inactive_workspace   $darkgray $darkgray $lightgray
+        active_workspace     $darkgray $darkgray $lightgray
+        urgent_workspace     $red $red $bg
+        }
 }
+
+
+# class                 border|backgr|text|indicator|child_border
+client.focused          $lightgray $lightgray $lightgray $lightgray
+client.focused_inactive $darkgray $darkgray $lightgray $purple $darkgray
+client.unfocused        $darkgray $darkgray $lightgray $purple $darkgray
+client.urgent           $red $red $white $red $red
 
 #Volume Control
 bindsym $mod+F11 exec amixer set Master 5%-
