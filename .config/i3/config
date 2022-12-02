@@ -283,7 +283,7 @@ for_window [class="Thunderbird"] floating enable sticky disable border 1
 for_window [class="Kazam"] floating enable sticky disable border normal
 for_window [class="copyq"] floating enable sticky disable border 1
 
-bindsym Print exec --no-startup-id flameshot gui
+bindsym --release Print exec --no-startup-id scrot -s
 
 
 # Only enable gaps on a workspace when there is at least one container
